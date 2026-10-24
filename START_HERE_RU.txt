@@ -1,0 +1,9 @@
+TOUCHX - REDMI NOTE 11 PRO / ANDROID 12
+
+1. Распакуйте ZIP через Файлы / ZArchiver.
+2. Загрузите в корень репозитория на GitHub содержимое распакованной папки, а НЕ сам ZIP.
+3. Обязательно сохраняйте .github/workflows/build.yml и app/src/main/.
+4. Actions -> Build TouchX Android12 Debug APK -> Run workflow.
+5. Если сборка успешна, скачайте артефакт touchx-android12-experimental и извлеките app-debug.apk.
+
+Это исходный проект, а не готовое APK. Работа на MIUI 13 не гарантируется: Android может блокировать MONITOR_INPUT.
